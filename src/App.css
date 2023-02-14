@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs input {
+  margin-right: 10px;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.todo-line {
+  margin: 5px 0;
+}
+
+span {
+  word-break: break-all;
+}
+
+#remove-btn {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: white;
+}
+
+#remove-btn:hover {
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
+}
